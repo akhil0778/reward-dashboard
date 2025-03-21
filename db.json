@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Akhilesh Yadav",
+      "points": 100,
+      "profilePicture": "profile.jpg",
+      "level": 3,
+      "activities": [
+        { "id": 1, "type": "Task Completion", "points": 10, "timestamp": "2025-03-01T12:00:00Z" },
+        { "id": 2, "type": "Daily Login", "points": 5, "timestamp": "2025-03-02T09:00:00Z" }
+      ],
+      "rewards": [
+        { "id": 1, "name": "Coffee Voucher", "points": 50, "timestamp": "2025-03-01T12:00:00Z" }
+      ],
+      "pointHistory": [
+        { "id": 1, "type": "Earned", "points": 10, "timestamp": "2025-03-01T12:00:00Z" },
+        { "id": 2, "type": "Spent", "points": 50, "timestamp": "2025-03-01T12:00:00Z" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Emma Wilson",
+      "points": 120,
+      "profilePicture": "emma.png",
+      "level": 4,
+      "activities": [
+        { "id": 3, "type": "Content Creation", "points": 20, "timestamp": "2025-03-03T10:00:00Z" }
+      ],
+      "rewards": [],
+      "pointHistory": [{ "id": 3, "type": "Earned", "points": 20, "timestamp": "2025-03-03T10:00:00Z" }]
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "points": 80,
+      "profilePicture": "michael.png",
+      "level": 2,
+      "activities": [{ "id": 4, "type": "Community Engagement", "points": 15, "timestamp": "2025-03-04T16:00:00Z" }],
+      "rewards": [],
+      "pointHistory": [{ "id": 4, "type": "Earned", "points": 15, "timestamp": "2025-03-04T16:00:00Z" }]
+    },
+    {
+      "id": 4,
+      "name": "Sophia Miller",
+      "points": 200,
+      "profilePicture": "sophia.png",
+      "level": 5,
+      "activities": [{ "id": 5, "type": "Task Completion", "points": 30, "timestamp": "2025-03-05T14:00:00Z" }],
+      "rewards": [{ "id": 2, "name": "Movie Ticket", "points": 100, "timestamp": "2025-03-05T14:30:00Z" }],
+      "pointHistory": [{ "id": 5, "type": "Earned", "points": 30, "timestamp": "2025-03-20T14:00:00Z" }]
+    },
+    {
+      "id": 5,
+      "name": "Daniel Lee",
+      "points": 75,
+      "profilePicture": "daniel.png",
+      "level": 2,
+      "activities": [{ "id": 6, "type": "Daily Login", "points": 5, "timestamp": "2025-03-06T08:30:00Z" }],
+      "rewards": [],
+      "pointHistory": [{ "id": 6, "type": "Earned", "points": 5, "timestamp": "2025-03-06T08:30:00Z" }]
+    }
+  ],
+  "pointHistory": [
+    { "userId": 1, "points": 10, "activity": "Task Completion", "timestamp": "2025-03-01T12:00:00Z" },
+    { "userId": 1, "points": 5, "activity": "Daily Login", "timestamp": "2025-03-02T09:00:00Z" },
+    { "userId": 2, "points": 20, "activity": "Content Creation", "timestamp": "2025-03-03T10:00:00Z" },
+    { "userId": 3, "points": 15, "activity": "Community Engagement", "timestamp": "2025-03-04T16:00:00Z" },
+    { "userId": 4, "points": 30, "activity": "Task Completion", "timestamp": "2025-03-05T14:00:00Z" }
+  ],
+  "activities": [
+    { "id": 1, "userId": 1, "type": "Task Completion", "points": 10, "timestamp": "2025-03-01T12:00:00Z" },
+    { "id": 2, "userId": 2, "type": "Daily Login", "points": 5, "timestamp": "2025-03-02T09:00:00Z" },
+    { "id": 3, "userId": 1, "type": "Content Creation", "points": 20, "timestamp": "2025-03-02T14:00:00Z" },
+    { "id": 4, "userId": 3, "type": "Community Engagement", "points": 15, "timestamp": "2025-03-02T16:00:00Z" },
+    { "id": 5, "userId": 4, "type": "Task Completion", "points": 30, "timestamp": "2025-03-05T14:00:00Z" },
+    { "id": 6, "userId": 5, "type": "Daily Login", "points": 5, "timestamp": "2025-03-06T08:30:00Z" },
+    { "id": 7, "userId": 3, "type": "Review Submission", "points": 25, "timestamp": "2025-03-08T12:00:00Z" }
+  ],
+  "rewards": [
+    { "id": 1, "name": "Coffee Voucher", "points": 50, "description": "Redeem for a free coffee", "image": "coffee.png" },
+    { "id": 2, "name": "Movie Ticket", "points": 100, "description": "Redeem for a free movie ticket", "image": "movie.jpg" },
+    { "id": 3, "name": "Amazon Gift Card", "points": 200, "description": "Redeem for a $20 gift card", "image": "amazon.jpg" },
+    { "id": 4, "name": "Spotify Subscription", "points": 150, "description": "One-month premium subscription", "image": "spotify.jpg" },
+    { "id": 5, "name": "Gym Membership", "points": 300, "description": "One-month gym pass", "image": "gym.jpg" }
+  ],
+  "leaderboard": [
+    { "id": 1, "name": "John Doe", "points": 500 },
+    { "id": 2, "name": "Jane Smith", "points": 450 },
+    { "id": 3, "name": "Alice Johnson", "points": 400 },
+    { "id": 4, "name": "Emma Wilson", "points": 120 },
+    { "id": 5, "name": "Rahul Sehrawat", "points": 100 },
+    { "id": 6, "name": "Sophia Miller", "points": 200 },
+    { "id": 7, "name": "Michael Brown", "points": 80 },
+    { "id": 8, "name": "Daniel Lee", "points": 75 }
+  ]
+}

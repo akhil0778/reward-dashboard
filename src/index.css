@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+
+
+.bg-gray-100 {
+  background-color: #f7fafc;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.hover\:bg-gray-100:hover {
+  background-color: #526673;
+}
+
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+body.dark {
+  background-color: #111827; 
+  color: #ffffff;
+}
+
+
+.dark .card {
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+
+.dark table {
+  background-color: #1f2937; 
+  color: #ffffff;
+}
+
+.dark th,
+.dark td {
+  border-color: #374151; 
+  
+}
