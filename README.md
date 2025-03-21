@@ -1,12 +1,32 @@
-# React + Vite
+Reward System Dashboard
+A comprehensive rewards management dashboard application built with React, Redux, and Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+User Management: Display user profiles and track points.
+Activity Management: Log and view point-earning activities.
+Rewards Marketplace: Browse and redeem rewards.
+Leaderboard: View top point earners.
+Admin Dashboard: Manage users, rewards, and activities.
+Setup
+Clone the repository:
+git clone https://github.com/akhil0778/reward-dashboard.git
+Install dependencies:
+npm install
+Start the development server:
+npm start
+Start the mock API server (in a separate terminal):
+REACT_APP_API_BASE_URL=http://localhost:3001
 
-Currently, two official plugins are available:
+Environment Variables
+Create a .env file in the root of the project and add the following: ```bash VITE_APP_API_BASE_URL=http://localhost:3000
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies Used
+React
+Redux Toolkit
+Tailwind CSS
+Chart.js
+JSON Server (mock API)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Backend (JSON Server)
+The mock backend is hosted separately to fetch data on render
