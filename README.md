@@ -15,7 +15,7 @@ npm install
 Start the development server:
 npm start
 Start the mock API server (in a separate terminal):
-REACT_APP_API_BASE_URL=http://localhost:3001
+REACT_APP_API_BASE_URL=http://localhost:3000
 
 Environment Variables
 Create a .env file in the root of the project and add the following: ```bash VITE_APP_API_BASE_URL=http://localhost:3000
